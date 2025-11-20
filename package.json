@@ -1,7 +1,13 @@
 {
-    "name": "node-version-demo",
+    "name": "scd-node-app",
     "version": "1.0.0",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
     "dependencies": {
-        "express": "^5.1.0"
+        "dotenv": "^16.4.5",
+        "mongoose": "^8.5.1",
+        "readline-sync": "^1.4.10"
     }
 }

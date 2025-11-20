@@ -1,1 +1,4 @@
 node_modules
+.env
+export.txt
+backups/*.json
